@@ -1,4 +1,3 @@
-<?php @session_start(); ?>
 
 
 <html>
@@ -31,32 +30,30 @@ p {
 <p id="demo"></p>
 
 <script>
-// Set the date we're counting down to
-var countDownDate = new Date("September 27, 2021 12:37:25").getTime();
+  
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+ var countDownDate = new Date("September 27, 2021 12:37:25").getTime();
 
-  // Get today's date and time
+
+ var x = setInterval(function() {
+
   var now = new Date().getTime();
+
+ var distance = 180000 - 0;      
     
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for minutes and seconds
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
+   document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
     
-  // If the count down is over, write some text 
-  if (distance < 0) {
+   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+  document.getElementById("demo").innerHTML = "EXPIRED";
+     header("location:\index.php")
+   }
+ }, 1000); 
+ </script>
+
       </div>
 
       <div class="panel-body">
