@@ -95,7 +95,7 @@ p {
                          </div>
 </div>
 <div class="form-group">
-<input type="submit" value="Sign Up" id = "submit" class="btn btn-info" name="submit"></div>
+<input type="submit" value="Sumbit" id = "submit" class="btn btn-info" name="submit"></div>
 
 
 </form>
