@@ -35,6 +35,10 @@ p {
  var countDownDate = new Date("September 27, 2021 12:37:25").getTime();
 
 
+
+//  function countDownDate(){
+//    for (var i=180000;i>0;i--){
+
  var x = setInterval(function() {
 
   var now = new Date().getTime();
@@ -49,9 +53,13 @@ p {
    if (distance < 0) {
     clearInterval(x);
   document.getElementById("demo").innerHTML = "EXPIRED";
-     header("location:\index.php")
+    //  header("location:\index.php")
+  alert("Refresh the Page,form has been Expired!");
    }
  }, 1000); 
+
+//  countDownDate();
+
  </script>
 
       </div>
