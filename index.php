@@ -22,7 +22,7 @@ p {
 <div class="container" style="width: 600px">
    <br />
    
-   <h3 align="center">Entry Form For Aleum</a></h3><br />   <br />
+   <h3 align="center">Entry Form For Aelum</a></h3><br />   <br />
 
    <div class="panel panel-default">
       <div class="panel-heading"><p>Register by Filling Up Correct Details</p>
