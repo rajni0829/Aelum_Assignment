@@ -11,7 +11,7 @@ _**A Countdown-form Widget that consists of following Features :**_
 
 By the time the countdown is running, the user has to fill all the details. In case of running out of time,the page gets refreshed and user needs to fill out the data again.
 
-_**Build Status**_
+_**Build Status**_ \
 The Project is Partially completed,all the features have been added and there's a small correction which needs to be identified in order to display the random captcha everytime the user refreshes(currently only image logo is shown).
 
 _**Tech Stack/Framework Used**_
